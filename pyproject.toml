@@ -8,7 +8,7 @@ version = "0.0.1"
 authors = [
   { name="Ahamed Ruyefa", email="ruyefadf@gmail.com" },
 ]
-description = "The 'password_utils' Python package is a versatile library specifically focused on password strength checking. It provides developers with a simple yet powerful way to evaluate the strength of passwords and enforce security standards. With customizable configuration options, developers can define minimum length requirements, specify the need for lowercase and uppercase characters, demand special characters and digits, and more. By using the package's intuitive API, developers can easily integrate robust password strength checking into their applications, ensuring that users create passwords that meet the desired security criteria. 'password_utils' is a reliable and efficient solution to enhance the overall security of password-based systems."
+description = "The 'password_utils' is a Python package for strong password checking. It validates password strength based on length, lowercase/uppercase characters, special characters, and digits. Enhance your application's security with ease."
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
