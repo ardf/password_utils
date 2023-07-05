@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'password_utils'
+version = "0.0.1"
+authors = [
+  { name="Ahamed Ruyefa", email="ruyefadf@gmail.com" },
+]
+description = "The 'password_utils' Python package is a versatile library specifically focused on password strength checking. It provides developers with a simple yet powerful way to evaluate the strength of passwords and enforce security standards. With customizable configuration options, developers can define minimum length requirements, specify the need for lowercase and uppercase characters, demand special characters and digits, and more. By using the package's intuitive API, developers can easily integrate robust password strength checking into their applications, ensuring that users create passwords that meet the desired security criteria. 'password_utils' is a reliable and efficient solution to enhance the overall security of password-based systems."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ardf/password_utils"
+"Bug Tracker" = "https://github.com/ardf/password_utils/issues"
