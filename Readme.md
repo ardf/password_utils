@@ -1,6 +1,6 @@
 # Overview
 
-`password_utils` is a Python package for strong password checking. It validates password strength based on length, lowercase/uppercase characters, special characters, and digits. Enhance your application's security with ease.
+`password_lib` is a Python package for strong password checking. It validates password strength based on length, lowercase/uppercase characters, special characters, and digits. Enhance your application's security with ease.
 
 ## Requirements
 
@@ -9,7 +9,7 @@
 ## Installation
 
 ```sh
-py -m pip install --index-url https://test.pypi.org/simple/ --no-deps password_utils
+py -m pip install password_lib
 ```
 
 ## Usage
@@ -45,4 +45,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Links
 
-https://test.pypi.org/project/password-utils/
+https://github.com/ardf/password_utils

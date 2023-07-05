@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = 'password_utils'
-version = "0.0.1"
+name = 'password_lib'
+version = "0.0.2"
 authors = [
   { name="Ahamed Ruyefa", email="ruyefadf@gmail.com" },
 ]
-description = "The 'password_utils' is a Python package for strong password checking. It validates password strength based on length, lowercase/uppercase characters, special characters, and digits. Enhance your application's security with ease."
+description = "The 'password_lib' is a Python package for strong password checking. It validates password strength based on length, lowercase/uppercase characters, special characters, and digits. Enhance your application's security with ease."
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
