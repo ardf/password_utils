@@ -1,29 +1,34 @@
 # Overview
 
-`password_lib` is a Python package for strong password checking. It validates password strength based on length, lowercase/uppercase characters, special characters, and digits. Enhance your application's security with ease.
+`password-lib` is a Python library for generating secure passwords, configuring strength requirements, and checking password strength. With customizable length and requirements, it enhances application security. Use password-lib to easily generate strong passwords and ensure password security.
 
 ## Requirements
 
-- python 3.8 or higher
+- python 3.9 or higher
 
 ## Installation
 
 ```sh
-py -m pip install password_lib
+py -m pip install password-lib
 ```
 
 ## Usage
 
-```py
-from password_utils.checker import PasswordStrengthChecker
+```sh
+> from password_lib.utils import PasswordUtil
 
-PasswordStrengthChecker.configure_strength(min_length=10, requires_special_chars=True)
-checker = PasswordStrengthChecker()
+> # Create an instance of the PasswordUtil class
+> password_util = PasswordUtil()
 
-if checker.is_password_secure(password):
-    print("Password is strong!")
-else:
-    print("Password is not strong!")
+> # Configure the password strength requirements
+> password_util.configure_strength(min_length=10)
+> password = password_util.generate_password()
+> is_secure = password_util.is_secure(password)
+> password
+0GpDjb@4M.RZRQY_HHCq7CzJI
+> is_secure
+True
+
 ```
 
 ## Contributing
